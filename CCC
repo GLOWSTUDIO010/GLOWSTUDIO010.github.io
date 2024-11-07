@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Studio Photography</title>
+    <style>
+        /* Resetando algumas configurações padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo da página */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4; /* cor de fundo clara */
+            color: #333; /* cor do texto */
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        /* Seção sobre */
+        section#sobre {
+            padding: 60px 20px;
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+        }
+
+        section#sobre h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        section#sobre p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        /* Seção de galeria de fotos */
+        section#portfolio {
+            padding: 60px 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        section#portfolio h2 {
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Seção de contato */
+        section#contato {
+            padding: 40px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        section#contato h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        section#contato p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .email {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #000;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Glow Studio Photography</h1>
+        <p>Elegância, Simplicidade e Captura de Momentos Inesquecíveis</p>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Glow Studio é um estúdio fotográfico especializado em capturar momentos com elegância e simplicidade. Nosso trabalho é focado em criar imagens atemporais que falam por si mesmas.</p>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+        <h2>Meu Portfólio</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/600x400/000000/FFFFFF?text=Foto+1" alt="Foto 1">
+            <img src="https://via.placeholder.com/600x400/000000/FFFFFF?text=Foto+2" alt="Foto 2">
+            <img src="https://via.placeholder.com/600x400/000000/FFFFFF?text=Foto+3" alt="Foto 3">
+            <img src="https://via.placeholder.com/600x400/000000/FFFFFF?text=Foto+4" alt="Foto 4">
+            <!-- Adicione mais imagens conforme necessário -->
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Gostou do nosso trabalho? Entre em contato conosco para saber mais ou para agendar uma sessão de fotos.</p>
+        <p class="email"><a href="mailto:contato@glowstudio.com">contato@glowstudio.com</a></p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Glow Studio Photography. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
